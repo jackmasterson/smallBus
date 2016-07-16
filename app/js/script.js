@@ -42,6 +42,15 @@ var model = {
 		},
 		{
 			type: "Stay for the friends"
+		},
+		{
+			type: "(555)555 5555"
+		},
+		{
+			type: "514 Sunset Drive"
+		},
+		{
+			type: "SG, NJ 08762"
 		}
 	]
 }
