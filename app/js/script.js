@@ -35,6 +35,14 @@ var model = {
 		{
 			type: "Mango"
 		}
+	],
+	get: [
+		{
+			type: "Come for the bagels"
+		},
+		{
+			type: "Stay for the friends"
+		}
 	]
 }
 

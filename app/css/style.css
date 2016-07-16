@@ -36,18 +36,20 @@ h4 {
 	text-align: left;
 	font-size: 25px;
 	letter-spacing: 20px;
-	opacity: 0.5;
 	z-index: 1;
 }
 
-.bagels {
+.left {
 	top: 15px;
 	left: 15px;
+	opacity: 0.5;
 }
 
-.bagels {
+.right {
 	top: 15px;
-	left: 15px;
+	right: 15px;
+	width: 25vw;
+	opacity: 0.5;
 }
 
 .pre-header {
@@ -63,3 +65,15 @@ h4 {
 .post {
 	margin-top: 5vh;
 }
+
+.logo-img {
+	border-radius: 100%;
+	border: 1px solid black;
+	height: 150px;
+	width: 150px;
+}
+.logo {
+	bottom: 15px;
+	right: 35px;
+}
+

@@ -15,15 +15,23 @@
 				<h1 class="header">BAGELS</h1>
 				<h4 class="pre-header post">For Days</h4>
 			</div>
-			<div class="menu bagels">
+			<div class="menu left">
 				<h1>Bagels:</h1>
-				<div data-bind="foreach: model.bagels">
-					<h2 class="menu-one" data-bind="text: type"></h2>
+				<div class="bagels" data-bind="foreach: model.bagels">
+					<h2 class="menu-bagels" data-bind="text: type"></h2>
 				</div>
 				<h1>Cream Cheese:</h1>
-				<div data-bind="foreach: model.cheese">
+				<div class="bagels" data-bind="foreach: model.cheese">
 					<h2 class="menu-one" data-bind="text: type"></h2>
 				</div>
+			</div>
+			<div class="menu right">
+				<div class="laughs" data-bind="foreach: model.get">
+					<h2 class="menu-cheese" data-bind="text: type"></h2>
+				</div>
+			</div>
+			<div class="menu logo">
+				<img class="logo-img" src="img/logo.png">
 			</div>
 		</div>
 	</div>
